@@ -373,7 +373,7 @@ const DownloadSection = () => {
                   </div>
                 </div>
               </div>
-              <a href="../voice_app/voice_app.dmg" className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors inline-flex items-center" download>
+              <a href="https://drive.google.com/file/d/1Y-iPALR7sUmqLgJ2raoRd2bPNU4qyNP4/view?usp=sharing" className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors inline-flex items-center" download>
                 <Download className="w-5 h-5 mr-2" />
                 Download Now
               </a>

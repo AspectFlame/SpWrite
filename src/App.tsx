@@ -533,19 +533,9 @@ const Footer = () => {
               <a href="#download" className="block text-gray-400 hover:text-white dark:text-gray-500 dark:hover:text-gray-300 transition-colors">Download</a>
               <a href="#features" className="block text-gray-400 hover:text-white dark:text-gray-500 dark:hover:text-gray-300 transition-colors">Features</a>
               <a href="#download" className="block text-gray-400 hover:text-white dark:text-gray-500 dark:hover:text-gray-300 transition-colors">System Requirements</a>
-              <a href="#" className="block text-gray-400 hover:text-white dark:text-gray-500 dark:hover:text-gray-300 transition-colors">Release Notes</a>
             </div>
           </div>
-          
-          <div>
-            <h4 className="text-lg font-semibold mb-4 text-white transition-colors">Support</h4>
-            <div className="space-y-2">
-              <a href="#" className="block text-gray-400 hover:text-white dark:text-gray-500 dark:hover:text-gray-300 transition-colors">Documentation</a>
-              <a href="#faq" className="block text-gray-400 hover:text-white dark:text-gray-500 dark:hover:text-gray-300 transition-colors">FAQ</a>
-              <a href="#" className="block text-gray-400 hover:text-white dark:text-gray-500 dark:hover:text-gray-300 transition-colors">Contact Support</a>
-              <a href="#about" className="block text-gray-400 hover:text-white dark:text-gray-500 dark:hover:text-gray-300 transition-colors">About</a>
-            </div>
-          </div>
+        
         </div>
         
       </div>

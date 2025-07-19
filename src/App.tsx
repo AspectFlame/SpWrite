@@ -284,7 +284,7 @@ const About = () => {
                 <div className="text-sm text-gray-500 dark:text-gray-400 transition-colors">Local processing</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2 transition-colors">15MB</div>
+                <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2 transition-colors">1.52GB</div>
                 <div className="text-sm text-gray-500 dark:text-gray-400 transition-colors">Download size</div>
               </div>
             </div>
@@ -293,30 +293,27 @@ const About = () => {
           <div className="relative">
             <div className="bg-white dark:bg-gray-700 rounded-3xl shadow-xl p-8 transition-colors">
               <div className="flex items-center space-x-4 mb-6">
-                <img 
+                {/* <img 
                   src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300&h=300" 
-                  alt="Alex Chen" 
+                  alt="Kaushik Narasimhan" 
                   className="w-16 h-16 rounded-full object-cover"
-                />
+                /> */}
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 dark:text-white transition-colors">Alex Chen</h3>
+                  <h3 className="text-xl font-semibold text-gray-900 dark:text-white transition-colors">Kaushik Narasimhan</h3>
                   <p className="text-gray-600 dark:text-gray-300 transition-colors">Lead Developer</p>
                 </div>
               </div>
               
               <p className="text-gray-600 dark:text-gray-300 mb-6 transition-colors">
-                Former Apple engineer with 8+ years in privacy-focused AI development. 
+                Student at Virginia Tech with experience in AI and Apple Development.
                 Passionate about creating tools that empower users without compromising their data.
               </p>
               
               <div className="flex space-x-4">
-                <a href="#" className="text-gray-400 hover:text-blue-500 dark:text-gray-500 dark:hover:text-blue-400 transition-colors">
-                  <Twitter className="w-5 h-5" />
-                </a>
-                <a href="#" className="text-gray-400 hover:text-blue-500 dark:text-gray-500 dark:hover:text-blue-400 transition-colors">
+                <a href="https://www.linkedin.com/in/kaushik-narasimhan-b17975224/" className="text-gray-400 hover:text-blue-500 dark:text-gray-500 dark:hover:text-blue-400 transition-colors">
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-blue-500 dark:text-gray-500 dark:hover:text-blue-400 transition-colors">
+                <a href="https://github.com/AspectFlame" className="text-gray-400 hover:text-blue-500 dark:text-gray-500 dark:hover:text-blue-400 transition-colors">
                   <Github className="w-5 h-5" />
                 </a>
               </div>
@@ -366,7 +363,7 @@ const DownloadSection = () => {
                 </div>
                 <div className="text-left">
                   <h3 className="text-xl font-semibold text-gray-900 dark:text-white transition-colors">SpWrite for macOS</h3>
-                  <p className="text-gray-600 dark:text-gray-300 transition-colors">Version 1.0.0 • 15MB • Universal Binary</p>
+                  <p className="text-gray-600 dark:text-gray-300 transition-colors">Version 1.0.0 • 1.52GB • Universal Binary</p>
                   <div className="flex space-x-2 mt-2">
                     <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Apple Silicon</span>
                     <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium">Intel Mac</span>
@@ -527,20 +524,7 @@ const Footer = () => {
             <p className="text-gray-400 dark:text-gray-500 mb-6 max-w-md transition-colors">
               Privacy-focused voice assistant for macOS. Your voice, your style, completely private.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white dark:text-gray-500 dark:hover:text-gray-300 transition-colors">
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white dark:text-gray-500 dark:hover:text-gray-300 transition-colors">
-                <Github className="w-5 h-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white dark:text-gray-500 dark:hover:text-gray-300 transition-colors">
-                <Linkedin className="w-5 h-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white dark:text-gray-500 dark:hover:text-gray-300 transition-colors">
-                <Mail className="w-5 h-5" />
-              </a>
-            </div>
+
           </div>
           
           <div>
@@ -564,16 +548,6 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 dark:text-gray-500 text-sm transition-colors">
-            © 2024 SpWrite. All rights reserved.
-          </p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-gray-400 hover:text-white dark:text-gray-500 dark:hover:text-gray-300 transition-colors text-sm">Privacy Policy</a>
-            <a href="#" className="text-gray-400 hover:text-white dark:text-gray-500 dark:hover:text-gray-300 transition-colors text-sm">Terms of Service</a>
-            <a href="#" className="text-gray-400 hover:text-white dark:text-gray-500 dark:hover:text-gray-300 transition-colors text-sm">Contact</a>
-          </div>
-        </div>
       </div>
     </footer>
   );
